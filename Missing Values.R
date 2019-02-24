@@ -37,7 +37,7 @@ mice1 <- mice(titanic[, !names(titanic) %in% "survived"], method="rf")  # perfor
 str(titanic)
 glm(survived~age+sex,data = titanic,family = 'binomial')
 summary(g1)
-
+#
 #This is where we can see the values
 mice1$imp$age
 

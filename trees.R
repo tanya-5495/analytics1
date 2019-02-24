@@ -71,7 +71,7 @@ Read in the data. The model needs to be trained on the training data and the res
 path = 'https://raw.githubusercontent.com/nikhlesh17/Training/master/titanic.csv'
 titanic <- read.csv(path)
 str(titanic)
-
+summary(titanic)
 ```
 
 ## Data subset and train-test split

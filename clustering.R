@@ -9,6 +9,7 @@ data = iris[, -5]
 #Scaling the data --- (x - mean)/sd
 normalized_data <- scale(data)
 head(normalized_data)
+##
 
 set.seed(123)
 fit =  kmeans(normalized_data, centers=3)
